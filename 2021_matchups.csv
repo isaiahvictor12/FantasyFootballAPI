@@ -1,0 +1,106 @@
+id,Week,Name1,Score1,Name2,Score2,Type
+0,1,OJ's Glove store,124.04,Team JeffD,131.96,Regular
+1,1,Delta Varients,139.38,RIP Fitzmagic,99.9,Regular
+2,1,Jimmy Gâs Rehab Clinic,120.89,Under the  InfluWentz,106.89,Regular
+3,1,Team Foland,118.01,Team Victor,96.32,Regular
+4,1,Hasbulla Mini Khabib,92.37,Team Siebenberger,123.35,Regular
+5,1,Long Johnson,108.03,Team Masters,109.43,Regular
+6,2,Delta Varients,114.87,OJ's Glove store,82.39,Regular
+7,2,Team JeffD,143.65,Jimmy Gâs Rehab Clinic,82.52,Regular
+8,2,RIP Fitzmagic,104.42,Under the  InfluWentz,138.39,Regular
+9,2,Hasbulla Mini Khabib,108.5,Team Foland,102.38,Regular
+10,2,Team Victor,104.74,Long Johnson,114.63,Regular
+11,2,Team Siebenberger,106.81,Team Masters,141.88,Regular
+12,3,OJ's Glove store,122.51,Jimmy Gâs Rehab Clinic,90.69,Regular
+13,3,Under the  InfluWentz,145.31,Delta Varients,97.89,Regular
+14,3,RIP Fitzmagic,126.16,Team JeffD,97.96,Regular
+15,3,Team Foland,93.96,Long Johnson,132.41,Regular
+16,3,Team Masters,102.71,Hasbulla Mini Khabib,97.85,Regular
+17,3,Team Siebenberger,109.32,Team Victor,104.78,Regular
+18,4,Under the  InfluWentz,112.99,OJ's Glove store,94.6,Regular
+19,4,Jimmy Gâs Rehab Clinic,93.52,RIP Fitzmagic,93.68,Regular
+20,4,Delta Varients,125.98,Team JeffD,139.95,Regular
+21,4,Team Masters,89.02,Team Foland,114.61,Regular
+22,4,Long Johnson,131.44,Team Siebenberger,166.21,Regular
+23,4,Hasbulla Mini Khabib,68.08,Team Victor,104.66,Regular
+24,5,OJ's Glove store,129.87,RIP Fitzmagic,115.2,Regular
+25,5,Team JeffD,150.07,Under the  InfluWentz,156.5,Regular
+26,5,Delta Varients,104.19,Jimmy Gâs Rehab Clinic,91.16,Regular
+27,5,Team Foland,110.37,Team Siebenberger,138.29,Regular
+28,5,Team Victor,131.42,Team Masters,93.1,Regular
+29,5,Hasbulla Mini Khabib,129.07,Long Johnson,128.44,Regular
+30,6,Team Foland,110.61,OJ's Glove store,130.81,Regular
+31,6,Team Victor,119.55,Team JeffD,142.06,Regular
+32,6,Hasbulla Mini Khabib,101.26,Delta Varients,144.38,Regular
+33,6,Long Johnson,141.85,Jimmy Gâs Rehab Clinic,97.22,Regular
+34,6,Team Masters,118.78,Under the  InfluWentz,71.73,Regular
+35,6,Team Siebenberger,83.33,RIP Fitzmagic,75.97,Regular
+36,7,Team JeffD,108.17,Team Foland,108.56,Regular
+37,7,Delta Varients,125.52,Team Victor,143.36,Regular
+38,7,Jimmy Gâs Rehab Clinic,126.83,Hasbulla Mini Khabib,78.39,Regular
+39,7,Under the  InfluWentz,109.95,Long Johnson,56.24,Regular
+40,7,RIP Fitzmagic,93.82,Team Masters,49.41,Regular
+41,7,OJ's Glove store,152.39,Team Siebenberger,67.72,Regular
+42,8,Team Foland,99.43,Delta Varients,103.99,Regular
+43,8,Team Victor,82.13,Jimmy Gâs Rehab Clinic,98.96,Regular
+44,8,Hasbulla Mini Khabib,114.02,Under the  InfluWentz,108.55,Regular
+45,8,Long Johnson,95.66,RIP Fitzmagic,97.58,Regular
+46,8,Team Masters,87.96,OJ's Glove store,120.22,Regular
+47,8,Team Siebenberger,90.74,Team JeffD,85.63,Regular
+48,9,Jimmy Gâs Rehab Clinic,86.55,Team Foland,128.02,Regular
+49,9,Under the  InfluWentz,94.79,Team Victor,77.36,Regular
+50,9,RIP Fitzmagic,65.87,Hasbulla Mini Khabib,105.04,Regular
+51,9,OJ's Glove store,76.54,Long Johnson,125.16,Regular
+52,9,Team JeffD,78.85,Team Masters,75.65,Regular
+53,9,Delta Varients,92.64,Team Siebenberger,82.44,Regular
+54,10,Team Foland,98.29,Under the  InfluWentz,97.09,Regular
+55,10,Team Victor,61.11,RIP Fitzmagic,104.53,Regular
+56,10,Hasbulla Mini Khabib,113.48,OJ's Glove store,73.08,Regular
+57,10,Long Johnson,109.87,Team JeffD,107.02,Regular
+58,10,Team Masters,94.38,Delta Varients,124.71,Regular
+59,10,Team Siebenberger,142.25,Jimmy Gâs Rehab Clinic,46.8,Regular
+60,11,RIP Fitzmagic,96.07,Team Foland,146.09,Regular
+61,11,OJ's Glove store,69.83,Team Victor,101.82,Regular
+62,11,Team JeffD,81.23,Hasbulla Mini Khabib,146.66,Regular
+63,11,Delta Varients,110.59,Long Johnson,130.94,Regular
+64,11,Jimmy Gâs Rehab Clinic,101.4,Team Masters,104.38,Regular
+65,11,Under the  InfluWentz,113.31,Team Siebenberger,89.16,Regular
+66,12,OJ's Glove store,121.45,Team Foland,102.76,Regular
+67,12,Team JeffD,106.84,Long Johnson,162.69,Regular
+68,12,Under the  InfluWentz,84.95,Hasbulla Mini Khabib,96.17,Regular
+69,12,Jimmy Gâs Rehab Clinic,123.68,RIP Fitzmagic,45.57,Regular
+70,12,Delta Varients,85.67,Team Siebenberger,80.92,Regular
+71,12,Team Victor,96.4,Team Masters,103.64,Regular
+72,13,Team Foland,110.03,Team JeffD,89.79,Regular
+73,13,Team Victor,106.61,Jimmy Gâs Rehab Clinic,163.03,Regular
+74,13,Hasbulla Mini Khabib,129.4,Delta Varients,144.98,Regular
+75,13,Long Johnson,113.91,Under the  InfluWentz,99.22,Regular
+76,13,Team Masters,88.04,OJ's Glove store,83.6,Regular
+77,13,Team Siebenberger,88.35,RIP Fitzmagic,69.7,Regular
+78,14,,,Delta Varients,104.75,Playoff
+79,14,Team JeffD,100.35,OJ's Glove store,155.99,Playoff
+80,14,,,Under the  InfluWentz,122.5,Playoff
+81,14,,,Team Foland,71.32,Playoff
+82,14,,,Hasbulla Mini Khabib,112.81,Playoff
+83,14,,,Team Siebenberger,91.85,Playoff
+84,14,Jimmy Gâs Rehab Clinic,130.62,Team Masters,149.47,Playoff
+85,14,,,Long Johnson,114.08,Playoff
+86,14,Team Victor,87.88,RIP Fitzmagic,96.35,Playoff
+87,15,OJ's Glove store,46.18,Delta Varients,138.26,Playoff
+88,15,Under the  InfluWentz,99.48,Team Foland,88.27,Playoff
+89,15,Hasbulla Mini Khabib,91.72,Team Siebenberger,99.1,Playoff
+90,15,Team Masters,114.63,Long Johnson,88.65,Playoff
+91,15,Jimmy Gâs Rehab Clinic,80.48,Team JeffD,74.07,Playoff
+92,15,Team Victor,72.87,RIP Fitzmagic,110.67,Playoff
+93,16,Under the  InfluWentz,89.33,Delta Varients,127.61,Playoff
+94,16,Team Masters,93.48,Team Siebenberger,106.5,Playoff
+95,16,Team Foland,118.5,Long Johnson,144.13,Playoff
+96,16,OJ's Glove store,165.86,Hasbulla Mini Khabib,125.99,Playoff
+97,16,Jimmy Gâs Rehab Clinic,93.8,Team JeffD,56.43,Playoff
+98,16,Team Victor,45.38,RIP Fitzmagic,100.86,Playoff
+99,17,Team Siebenberger,85.72,Delta Varients,121.51,Playoff
+100,17,Team Masters,73.03,Under the  InfluWentz,131.82,Playoff
+101,17,OJ's Glove store,158.39,Long Johnson,120.81,Playoff
+102,17,Jimmy Gâs Rehab Clinic,112.22,Team Foland,93.25,Playoff
+103,17,Team JeffD,93.18,Hasbulla Mini Khabib,93.97,Playoff
+104,17,Team Victor,63.89,RIP Fitzmagic,109.25,Playoff
