@@ -4,7 +4,7 @@ import pandas as pd
 
 # Define URL parameters
 league_id = 348540
-year = 2021
+year = 2022
 
 # Define the URL with our parameters
 url = f'https://fantasy.espn.com/apis/v3/games/ffl/leagueHistory/{league_id}?seasonId={year}'
@@ -42,7 +42,7 @@ matchup_df = matchup_df.reindex(columns=matchup_column_names).rename(columns=mat
 team_df = team_df.reindex(columns=team_column_names).rename(columns=team_column_names)
 
 # Add a new column for regular/playoff game based on week number
-matchup_df['Type'] = ['Regular' if week<=13 else 'Playoff' for week in matchup_df['Week']]
+#matchup_df['Type'] = ['Regular' if week<=13 else 'Playoff' for week in matchup_df['Week']]
 
 # Concatenate the two name columns
 team_df['Name'] = team_df['Name1'] + ' ' + team_df['Name2']
@@ -55,20 +55,20 @@ matchup_df = matchup_df.rename(columns={"Team1":"id"})
 
 # (1) Merge DataFrames to get team names instead of ids and rename Name column to Name1
 matchup_df = matchup_df.merge(team_df, on=['id'], how='left')
-matchup_df = matchup_df.rename(columns={'Name':'Name1'})
+matchup_df = matchup_df.rename(columns={'Name':'Team1'})
 
 # (1) Drop the id column and reorder columns
-matchup_df = matchup_df[['Week', 'Name1', 'Score1', 'Team2', 'Score2', 'Type']]
+matchup_df = matchup_df[['Week', 'Team1', 'Score1', 'Team2', 'Score2']]
 
 # (2) Rename Team1 column to id
 matchup_df = matchup_df.rename(columns={"Team2":"id"})
 
 # (2) Merge DataFrames to get team names instead of ids and rename Name column to Name2
 matchup_df = matchup_df.merge(team_df, on=['id'], how='left')
-matchup_df = matchup_df.rename(columns={'Name':'Name2'})
+matchup_df = matchup_df.rename(columns={'Name':'Team2'})
 
 # (2) Drop the id column and reorder columns
-matchup_df = matchup_df[['Week', 'Name1', 'Score1', 'Name2', 'Score2', 'Type']]
+matchup_df = matchup_df[['Week', 'Team1', 'Score1', 'Team2', 'Score2']]
 
 # Output the DataFrame to a csv
 matchup_df.to_csv(f"{year}_matchups.csv")

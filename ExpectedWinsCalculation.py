@@ -1,7 +1,9 @@
 import csv
 
+year = "2022"
+
 # Open the CSV file
-with open("2021_matchups.csv", "r") as f:
+with open(f'{year}_matchups.csv', "r") as f:
     # Create a CSV reader
     reader = csv.reader(f)
     
@@ -10,10 +12,13 @@ with open("2021_matchups.csv", "r") as f:
     
     # Initialize a dictionary to store the scores for each team
     scores = {}
-    
+
     # Initialize a dictionary to store the total rank for each team
     total_ranks = {}
-    
+
+    # Initialize a dictionary to store the total rank for each team
+    total_wins = {}
+
     # initialize the current week
     current_week = "1"
     
@@ -25,7 +30,6 @@ with open("2021_matchups.csv", "r") as f:
         score1 = row[3]
         team2 = row[4]
         score2 = row[5]
-        game_type = row[6]
 
         if week != current_week:
             # Calculate the ranks for each team
@@ -43,7 +47,7 @@ with open("2021_matchups.csv", "r") as f:
             current_week = week
 
         # If this is a regular season game, update the scores for each team
-        if game_type == "Regular":
+        if int(week) <= 15:
             if score1:
                 score1 = float(score1)
             else:
@@ -54,10 +58,21 @@ with open("2021_matchups.csv", "r") as f:
                 score2 = 0
             scores[team1] = scores.get(team1, 0) + score1
             scores[team2] = scores.get(team2, 0) + score2
+
+            if score1 > score2:
+                total_wins[team1] = total_wins.get(team1, 0) + 1
+            else:
+                total_wins[team2] = total_wins.get(team2, 0) + 1
+
+
         # If this is not a regular season game or not week 1, stop updating the scores
-        elif game_type != "Regular":
+        elif int(week) > 15:
             break
 
-    # Print the total rank for each team
-    for team, total_rank in total_ranks.items():
-        print("{} had a total rank of {}".format(team, round(total_rank, 2)))
+    # Open the file in write mode
+    with open("expectedwins.txt", "w") as f:
+        # Print the total rank for each team
+        for team, total_rank in total_ranks.items():
+            string = f"{team} won {total_wins.get(team, 0)} games but had an expected wins total of {round(total_rank, 2)}. This is a difference of {round((total_wins.get(team, 0)-total_rank), 2)}"
+            # Write the string to the file
+            f.write(string + "\n")
