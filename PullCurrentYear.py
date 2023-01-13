@@ -28,7 +28,7 @@ team_response = requests.get(url,
 matchup_json = matchup_response.json()
 team_json = team_response.json()
 # Transform both of the json outputs into DataFrames
-matchup_df = pd.json_n.  ormalize(matchup_json['schedule'])
+matchup_df = pd.json_normalize(matchup_json['schedule'])
 team_df = pd.json_normalize(team_json['teams'])
 # Define the column names needed
 matchup_column_names = {

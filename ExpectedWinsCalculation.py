@@ -1,5 +1,7 @@
 import csv
 
+import pandas as pd
+
 year = "2022"
 
 # Open the CSV file
@@ -69,10 +71,31 @@ with open(f'{year}_matchups.csv', "r") as f:
         elif int(week) > 15:
             break
 
-    # Open the file in write mode
-    with open("expectedwins.txt", "w") as f:
-        # Print the total rank for each team
-        for team, total_rank in total_ranks.items():
-            string = f"{team} won {total_wins.get(team, 0)} games but had an expected wins total of {round(total_rank, 2)}. This is a difference of {round((total_wins.get(team, 0)-total_rank), 2)}"
-            # Write the string to the file
-            f.write(string + "\n")
+# I will stores these values in the arrays so I can prepare to put them in csv
+teams = []
+wins = []
+expected_wins = []
+
+# Open the file in write mode
+with open("expectedwins.txt", "w") as f:
+    # Print the total rank for each team
+    for team, total_rank in total_ranks.items():
+        teams.append(team)
+        wins.append(total_wins.get(team, 0))
+        expected_wins.append(round(total_rank, 2))
+        string = f"{team} won {total_wins.get(team, 0)} games but had an expected wins total of {round(total_rank, 2)}. This is a difference of {round((total_wins.get(team, 0)-total_rank), 2)}"
+        # Write the string to the file
+        f.write(string + "\n")
+
+# Define column names and their values
+standings_dict = {
+    'Team Name' : teams,
+    'Wins' : wins,
+    'Expected Wins': expected_wins
+}
+
+# Transform the dictionary into a DataFrame
+standings_df = pd.DataFrame.from_dict(standings_dict)
+
+# Write to csv
+standings_df.to_csv(f'{year}standings.csv')

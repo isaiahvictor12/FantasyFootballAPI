@@ -1,0 +1,109 @@
+,Week,Name1,Score1,Name2,Score2,Type
+0,1,Close Encounter Of Kirk Kind,92.66,Team Farsa,133.42,Regular
+1,1,Team Jackie ,136.88,Team Ossoff,104.36,Regular
+2,1,Natural Born Kylers,121.42,Team Riot,136.98,Regular
+3,1,Alief Jackalopes ,83.22,Chargers  Robles,91.46,Regular
+4,1,Philly Anarchist ,112.8,Dilbert Gottfried,135.4,Regular
+5,1,Washington D.C. Commies,129.4,Team Marks,109.32,Regular
+6,2,Team Jackie ,134.78,Close Encounter Of Kirk Kind,140.2,Regular
+7,2,Team Farsa,106.78,Natural Born Kylers,138.12,Regular
+8,2,Team Ossoff,83.2,Team Riot,148.2,Regular
+9,2,Philly Anarchist ,89.96,Alief Jackalopes ,117.02,Regular
+10,2,Chargers  Robles,137.76,Washington D.C. Commies,130.98,Regular
+11,2,Dilbert Gottfried,98.3,Team Marks,102.26,Regular
+12,3,Close Encounter Of Kirk Kind,111.44,Natural Born Kylers,131.8,Regular
+13,3,Team Riot,84.04,Team Jackie ,96.7,Regular
+14,3,Team Ossoff,100.08,Team Farsa,120.86,Regular
+15,3,Alief Jackalopes ,127.12,Washington D.C. Commies,111.76,Regular
+16,3,Team Marks,100.2,Philly Anarchist ,97.66,Regular
+17,3,Dilbert Gottfried,92.28,Chargers  Robles,78.68,Regular
+18,4,Team Riot,111.64,Close Encounter Of Kirk Kind,151.66,Regular
+19,4,Natural Born Kylers,95.36,Team Ossoff,85.92,Regular
+20,4,Team Jackie ,132.22,Team Farsa,94.76,Regular
+21,4,Team Marks,132.88,Alief Jackalopes ,61.26,Regular
+22,4,Washington D.C. Commies,140.26,Dilbert Gottfried,93.66,Regular
+23,4,Philly Anarchist ,144.48,Chargers  Robles,124.5,Regular
+24,5,Close Encounter Of Kirk Kind,135.7,Team Ossoff,98.3,Regular
+25,5,Team Farsa,106.84,Team Riot,120.24,Regular
+26,5,Team Jackie ,111.16,Natural Born Kylers,86.36,Regular
+27,5,Alief Jackalopes ,88.16,Dilbert Gottfried,110.38,Regular
+28,5,Chargers  Robles,94.12,Team Marks,127.1,Regular
+29,5,Philly Anarchist ,142.96,Washington D.C. Commies,117.32,Regular
+30,6,Alief Jackalopes ,63.2,Close Encounter Of Kirk Kind,117.24,Regular
+31,6,Chargers  Robles,83.12,Team Farsa,101.1,Regular
+32,6,Philly Anarchist ,89.82,Team Jackie ,113.86,Regular
+33,6,Washington D.C. Commies,65.96,Natural Born Kylers,86.1,Regular
+34,6,Team Marks,115.4,Team Riot,114.02,Regular
+35,6,Dilbert Gottfried,129.52,Team Ossoff,113.32,Regular
+36,7,Team Farsa,109.9,Alief Jackalopes ,54.5,Regular
+37,7,Team Jackie ,80.4,Chargers  Robles,93.52,Regular
+38,7,Natural Born Kylers,61.0,Philly Anarchist ,112.62,Regular
+39,7,Team Riot,101.9,Washington D.C. Commies,86.68,Regular
+40,7,Team Ossoff,66.82,Team Marks,112.34,Regular
+41,7,Close Encounter Of Kirk Kind,123.48,Dilbert Gottfried,112.02,Regular
+42,8,Alief Jackalopes ,91.62,Team Jackie ,103.92,Regular
+43,8,Chargers  Robles,95.4,Natural Born Kylers,79.3,Regular
+44,8,Philly Anarchist ,146.54,Team Riot,161.9,Regular
+45,8,Washington D.C. Commies,90.7,Team Ossoff,104.74,Regular
+46,8,Team Marks,110.08,Close Encounter Of Kirk Kind,139.9,Regular
+47,8,Dilbert Gottfried,86.12,Team Farsa,75.58,Regular
+48,9,Natural Born Kylers,56.22,Alief Jackalopes ,64.42,Regular
+49,9,Team Riot,88.74,Chargers  Robles,70.8,Regular
+50,9,Team Ossoff,65.4,Philly Anarchist ,94.46,Regular
+51,9,Close Encounter Of Kirk Kind,123.26,Washington D.C. Commies,89.6,Regular
+52,9,Team Farsa,100.9,Team Marks,97.84,Regular
+53,9,Team Jackie ,145.6,Dilbert Gottfried,77.74,Regular
+54,10,Alief Jackalopes ,34.6,Team Riot,128.68,Regular
+55,10,Chargers  Robles,106.24,Team Ossoff,102.84,Regular
+56,10,Philly Anarchist ,110.44,Close Encounter Of Kirk Kind,120.8,Regular
+57,10,Washington D.C. Commies,116.0,Team Farsa,119.16,Regular
+58,10,Team Marks,93.3,Team Jackie ,73.2,Regular
+59,10,Dilbert Gottfried,96.04,Natural Born Kylers,72.9,Regular
+60,11,Team Ossoff,79.84,Alief Jackalopes ,123.22,Regular
+61,11,Close Encounter Of Kirk Kind,97.54,Chargers  Robles,99.4,Regular
+62,11,Team Farsa,82.2,Philly Anarchist ,141.04,Regular
+63,11,Team Jackie ,102.08,Washington D.C. Commies,119.92,Regular
+64,11,Natural Born Kylers,104.5,Team Marks,78.4,Regular
+65,11,Team Riot,94.82,Dilbert Gottfried,71.46,Regular
+66,12,Close Encounter Of Kirk Kind,121.14,Alief Jackalopes ,89.06,Regular
+67,12,Team Farsa,82.54,Chargers  Robles,82.66,Regular
+68,12,Team Jackie ,129.42,Philly Anarchist ,106.28,Regular
+69,12,Natural Born Kylers,132.42,Washington D.C. Commies,117.74,Regular
+70,12,Team Riot,153.74,Team Marks,128.34,Regular
+71,12,Team Ossoff,97.8,Dilbert Gottfried,57.5,Regular
+72,13,Alief Jackalopes ,62.04,Team Farsa,123.76,Regular
+73,13,Chargers  Robles,120.6,Team Jackie ,110.82,Regular
+74,13,Philly Anarchist ,105.84,Natural Born Kylers,110.2,Regular
+75,13,Washington D.C. Commies,84.14,Team Riot,126.96,Regular
+76,13,Team Marks,121.14,Team Ossoff,116.6,Regular
+77,13,Dilbert Gottfried,53.02,Close Encounter Of Kirk Kind,96.6,Regular
+78,14,Team Jackie ,120.28,Alief Jackalopes ,63.2,Playoff
+79,14,Natural Born Kylers,65.18,Chargers  Robles,105.68,Playoff
+80,14,Team Riot,118.72,Philly Anarchist ,95.94,Playoff
+81,14,Team Ossoff,97.9,Washington D.C. Commies,157.46,Playoff
+82,14,Close Encounter Of Kirk Kind,97.96,Team Marks,91.16,Playoff
+83,14,Team Farsa,76.82,Dilbert Gottfried,67.68,Playoff
+84,15,Team Marks,159.0,Close Encounter Of Kirk Kind,110.34,Playoff
+85,15,Alief Jackalopes ,81.1,Team Riot,133.28,Playoff
+86,15,Chargers  Robles,105.32,Team Farsa,90.42,Playoff
+87,15,Philly Anarchist ,92.24,Team Ossoff,135.6,Playoff
+88,15,Washington D.C. Commies,101.7,Team Jackie ,99.56,Playoff
+89,15,Dilbert Gottfried,112.24,Natural Born Kylers,106.5,Playoff
+90,16,Dilbert Gottfried,97.66,Team Riot,94.06,Playoff
+91,16,Team Marks,111.0,Team Jackie ,93.78,Playoff
+92,16,Team Farsa,89.16,Close Encounter Of Kirk Kind,200.88,Playoff
+93,16,Natural Born Kylers,76.0,Chargers  Robles,89.8,Playoff
+94,16,Washington D.C. Commies,76.2,Philly Anarchist ,99.2,Playoff
+95,16,Team Ossoff,106.66,Alief Jackalopes ,111.9,Playoff
+96,17,Dilbert Gottfried,60.92,Team Marks,32.7,Playoff
+97,17,Close Encounter Of Kirk Kind,114.18,Chargers  Robles,75.38,Playoff
+98,17,Team Jackie ,63.5,Team Riot,120.1,Playoff
+99,17,Natural Born Kylers,52.4,Team Farsa,81.48,Playoff
+100,17,Alief Jackalopes ,51.7,Philly Anarchist ,128.56,Playoff
+101,17,Team Ossoff,101.88,Washington D.C. Commies,152.36,Playoff
+102,18,Dilbert Gottfried,85.38,Close Encounter Of Kirk Kind,81.22,Playoff
+103,18,Team Marks,85.6,Chargers  Robles,87.12,Playoff
+104,18,Team Farsa,69.78,Team Riot,120.16,Playoff
+105,18,Natural Born Kylers,46.16,Team Jackie ,95.46,Playoff
+106,18,Washington D.C. Commies,74.32,Philly Anarchist ,102.9,Playoff
+107,18,Team Ossoff,36.3,Alief Jackalopes ,85.6,Playoff
